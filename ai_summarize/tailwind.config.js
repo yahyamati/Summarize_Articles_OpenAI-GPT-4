@@ -11,12 +11,21 @@ module.exports = {
           '50%': { transform: 'scale(1.2)', opacity: '0' },
           '100%': { transform: 'scale(0.6)', opacity: '1' },
         },
-        spin: {
-          '0%': { transform: 'rotate(0deg)' },
-          '100%': { transform: 'rotate(360deg)' },
+        slidein:{
+          from:{
+            opacity:"0",
+            transform:"translateY(-10px)"
+
+          },
+          to:{
+            opacity:"1",
+            transform:"translateY(0)"
+          }
         },
       },
       animation: {
+        slidein:"slidein 1s ease var(--slidein-delay,0) forwards",
+       
         pulse: 'pulse 1s ease-in-out infinite',
         spin: 'spin 2s linear infinite',
       },
@@ -34,3 +43,5 @@ module.exports = {
   },
   plugins: [],
 }
+
+
