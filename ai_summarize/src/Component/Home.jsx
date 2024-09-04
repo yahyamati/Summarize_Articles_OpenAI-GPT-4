@@ -64,7 +64,7 @@ const Home = () => {
             Your browser does not support the video tag.
           </video>
           {/* Heading and Description */}
-          <h1 className="animate-slidein [--slidein-delay:300ms] opacity-0 text-5xl font-extrabold text-gray-800 leading-tightmt-2">
+          <h1 className="animate-slidein [--slidein-delay:300ms] opacity-0 text-4xl font-extrabold text-gray-800 leading-tightmt-2">
             Summarize Articles
             <br className="hidden md:block" />
             <span className="animate-slidein [--slidein-delay:300ms] opacity-0 block text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-600 mt-4">
